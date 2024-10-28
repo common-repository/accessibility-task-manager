@@ -1,0 +1,65 @@
+
+			.etask_no_pop{
+				display: none;
+			}
+			.e_task_notification_popup{
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: rgba(255,255,255,0.5);
+				z-index: 9999;
+			}
+
+			.noti_content_div{
+				position: absolute;
+				width: 400px;
+				background: #FFFFFF;
+				padding: 30px;
+				border: 1px solid #CCC;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+			}
+			.noti_content_div h5{
+				margin: 0px;
+				font-size: 25px;
+				margin-bottom: 15px;
+			}
+
+			.etask_error{
+				border-left: 10px solid #FF0000;
+			}
+
+			.etask_success{
+				border-left: 10px solid green;
+			}
+
+			.tm_loader{
+				position: relative;
+				margin-bottom: -5px;
+				display: inline-block;
+				display: none;
+			}
+			.custom_tm_notice_success{
+				background: #F2F2F2;
+				padding: 10px 15px;
+				display: block;
+				border-left: 5px solid green;
+			}
+			.custom_tm_notice_failed{
+				background: #F2F2F2;
+				padding: 10px 15px;
+				display: block;
+				border-left: 5px solid red;
+			}
+			.custom_tm_notice_success p, .custom_tm_notice_failed p{
+				margin: 0;
+			}
+			.custom_tm_notice_success .notice-dismiss, .custom_tm_notice_failed .notice-dismiss{
+				margin-right: 10px;
+			}
+			.tm_notice_off{
+				display: none;
+			}
